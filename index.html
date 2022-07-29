@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>TOP | HTML テンプレート</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">    
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script>
+</script>
+</head>
+<body id="home">
+<header>
+	<div class="wrapper">
+		<div class="row">
+			<div id="logo_area" class="col-md-7">
+				<h1>サイト名</h1>
+				<a href="index.html"><img src="images/logo.jpg" class="full"></a>
+			</div>
+			<div id="search_area" class="col-md-5">
+				<a class="btn btn-default" href="#"><i class="fa fa-comment"></i> English</a>
+				<ul>
+					<li><a href="#"><i class="fa fa-sitemap"></i> サイトマップ</a></li>
+					<li><a href="#"><i class="fa fa-envelope"></i> お問い合わせ</a></li>
+					<li><a href="#"><i class="fa fa-link"></i> リンク</a></li>
+				</ul>
+				<div>
+					<form id="searchform" method="get" class="clearfix">
+						<a href="#" class="btn btn-default" onclick="$('#searchform').submit();"><i class="fa fa-search"></i></a>
+						<input type="text" name="s" >
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<nav id="menu">
+		<div class="wrapper clearfix"><!-- for wp -->
+			<ul class="clearfix">
+				<li><a href="#">メニュー1</a></li>
+				<li><a href="#">メニュー2</a></li>
+				<li><a href="#">メニュー3</a>
+					<ul>
+						<li><a href="#">サブメニュー1</a></li>
+						<li><a href="#">サブメニュー2</a></li>
+						<li><a href="#">サブメニュー3</a></li>
+					</ul>            	
+				</li>    	
+				<li><a href="#">メニュー4</a></li>
+				<li><a href="#">メニュー5</a></li>
+				<li><a href="#">メニュー6</a></li>
+				<li><a href="#">メニュー7</a></li>
+				<li class="pc_none"><a href="#"><i class="fa fa-comment"></i> English</a></li>
+			</ul>
+		</div>
+	</nav>	
+</header>
+<div id="sp_menu"><a href="#"><img src="images/sp_menu.png" width="30" height="30" alt="menu"></a></div>
+
+
+<main>
+	<section id="eyecatch">
+		<div class="wrapper">
+			<div class="slider-wrapper theme-default">
+				<div id="slider" class="nivoSlider">
+					<img src="images/eyecatch.jpg" />
+					<img src="images/eyecatch.jpg" title="Text here" />
+					<img src="images/eyecatch.jpg" alt="" title="#htmlcaption" />
+				</div>
+				<div id="htmlcaption" class="nivo-html-caption">
+					<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="news">
+		<div class="wrapper">
+				<h2>お知らせ</h2>
+				<ul>
+					<li class="row">
+						<div class="date col-md-2 col-4">&raquo; 2016-07-20</div>
+						<div class="col-md-2 col-3"><span class="badge badge-info ">ニュース</span></div>
+						<div class="col-md-8 col-12"><a href="#">ニュースを記載しています1。</a></div>
+					</li>
+					<li class="row">
+						<div class="date col-md-2 col-4">&raquo; 2016-07-20</div>
+						<div class="col-md-2 col-3"><span class="badge badge-warning">お知らせ</span></div>
+						<div class="col-md-8 col-12"><a href="#">ニュースを記載しています1。</a></div>
+					</li>
+					<li class="row">
+						<div class="date col-md-2 col-4">&raquo; 2016-07-20</div>
+						<div class="col-md-2 col-3"><span class="badge badge-success">公募</span></div>
+						<div class="col-md-8 col-12"><a href="#">ニュースを記載しています1。</a></div>
+					</li>
+				</ul>
+				<a href="#" class="btn btn-info more">一覧</a>     
+			    <div class="clearfix"></div>
+        </div>
+    </section>
+    
+    <section id="content">
+    	<div class="wrapper">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>見出し1</h2>
+					<h3>見出し2</h3>
+					<p>ここに本文が入ります。</p>
+					<h2>見出し1</h2>
+					<h3>見出し2</h3>
+					<p>ここに本文が入ります。</p>
+				</div>
+			</div>
+        </div>
+    </section>
+
+
+	<section id="process">
+    	<div class="wrapper">
+			<div class="row">
+				<div class="col-md-7">
+					<h2>見出しA <a href="#" class="btn btn-default"> 詳細はこちら <i class="fa fa-plus"></i></a></h2>
+					<p>ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。</p>
+				</div>
+			</div>
+        </div><!-- .wrapper -->
+    </section>
+
+	<section id="archive">
+    	<div class="wrapper">
+			<div class="row">
+				<div class="item col-md-3 col-6">
+					<div>
+						<h2>見出しB  <a class="btn btn-info" href="#">詳細 <i class="fa fa-arrow-right"></i></a></h2>
+						<p>ここに説明が入ります。<br>ここに説明が入ります。<br>ここに説明が入ります。</p>
+					</div>
+				</div>
+				<div class="item col-md-3 col-6">
+					<div>
+						<h2>見出しC <a class="btn btn-info" href="#">詳細 <i class="fa fa-arrow-right"></i></a></h2>
+						<p>ここに説明が入ります。<br>ここに説明が入ります。</p>
+					</div>
+				</div>
+				<div class="item col-md-3 col-6">
+					<div>
+						<h2>見出しD  <a class="btn btn-info" href="#">詳細 <i class="fa fa-arrow-right"></i></a></h2>
+						<p>ここに説明が入ります。</p>
+					</div>
+				</div>
+				<div class="item col-md-3 col-6">
+					<div>
+						<h2>見出しE <a class="btn btn-info" href="#">詳細 <i class="fa fa-arrow-right"></i></a></h2>
+						<p>ここに説明が入ります。<br>ここに説明が入ります。<br>ここに説明が入ります。<br>ここに説明が入ります。</p>
+					</div>                
+				</div>
+				<div class="item col-md-3 col-6">
+					<div>
+						<h2>見出しF  <a class="btn btn-info" href="#">詳細 <i class="fa fa-arrow-right"></i></a></h2>
+						<p>ここに説明が入ります。<br>ここに説明が入ります。</p>
+					</div>                
+				</div>
+				<div class="item col-md-3 col-6">
+					<div>
+						<h2>見出しG <a class="btn btn-info" href="#">詳細 <i class="fa fa-arrow-right"></i></a></h2>
+						<p>ここに説明が入ります。<br>ここに説明が入ります。<br>ここに説明が入ります。<br>ここに説明が入ります。</p>
+					</div>
+				</div>
+				<div class="item col-md-3 col-6">
+					<div>
+						<h2>見出しH <a class="btn btn-info" href="#">詳細 <i class="fa fa-arrow-right"></i></a></h2>
+						<p>ここに説明が入ります。<br>ここに説明が入ります。<br>ここに説明が入ります。</p>
+					</div>
+				</div>
+				<div class="item col-md-3 col-6">
+					<div>
+						<h2>見出しI <a class="btn btn-info" href="#">詳細 <i class="fa fa-arrow-right"></i></a></h2>
+						<p>ここに説明が入ります。</p>
+					</div>
+				</div>
+			</div>
+    	</div>
+    </section>
+    
+    <section id="bnr">
+    	<div class="wrapper">
+            <ul class="row">
+            	<li class="col-md-3 col-6"><a href="#"><img></a></li>
+            	<li class="col-md-3 col-6"><a href="#"><img></a></li>
+            	<li class="col-md-3 col-6"><a href="#"><img></a></li>
+            	<li class="col-md-3 col-6"><a href="#"><img></a></li>
+            </ul>
+        </div><!-- .wrapper -->
+    </section>
+    
+
+</main>
+
+<footer>
+	<div id="copyright" class="wrapper">Copyright &copy; 2016 Your company name. All rights reserved</div>
+</footer>
+</body>
+</html>
